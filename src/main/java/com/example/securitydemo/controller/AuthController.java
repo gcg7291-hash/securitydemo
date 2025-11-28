@@ -1,5 +1,6 @@
 package com.example.securitydemo.controller;
 
+import com.example.securitydemo.service.UserService;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
@@ -26,6 +27,7 @@ public class AuthController {
         }
         return "dashboard";
     }
+
 
 
 
